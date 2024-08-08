@@ -1,0 +1,146 @@
+.containner{
+    margin: 0;
+    padding: 0;
+}
+
+.profile-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    width: 24rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+.chat-title {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.public-chat-wrapper{
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+.chat-name {
+    text-decoration: underline;
+}
+
+.chat-section{
+    height: 550px;
+    width: 650px;
+    background-color: rgb(230, 213, 213);
+    overflow: scroll;
+}
+
+.InputField{
+    border: none;
+    text-decoration: none;
+}
+
+.msg-send-section{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .message-input {
+    flex: 1;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    outline: 1px solid gainsboro;
+  }
+  
+  .send-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .send-button:hover {
+    background-color: #0056b3;
+  }
+
+  .chat-wrapper{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .chat-userImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    opacity: 0.7;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+  }
+
+  .msg-list {
+    display: flex;
+  }
+
+  .userName {
+    font-size: small;
+    font-weight: bold;
+    margin-top: 35px;
+    color:#007bff;
+    margin-bottom: -10px;
+  }
+
+  .user-msg{
+    font-style: italic;
+  }
+
+  .user-event{
+    font-style: italic;
+    color: darkmagenta;
+  }
+
+  .event-info {
+    margin-left: 2rem;
+    color: #25179c;
+  }
+  .msg-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  /* Messages sent by the user */
+  .msg-section-own {
+    align-self: flex-end;
+    background-color: #DCF8C6;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 80%;
+  }
+  
+  /* Messages received from others */
+  .msg-section-other {
+    align-self: flex-start;
+    background-color: #f1e8e8;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 60%;
+  }
